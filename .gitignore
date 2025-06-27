@@ -234,3 +234,15 @@ run-server.sh
 run-server.bat
 debug.sh
 debug.bat
+
+*.sublime-workspace
+*.sublime-project
+/workspace.xml
+/shelf/
+.mvn/timing.properties
+.shelf/
+.workspace.xml
+.mvn/timing.properties
+*.sublime-workspace
+*.sublime-project
+target/maven-status/maven-compiler-plugin/compile/default-compile/
