@@ -1,0 +1,73 @@
+name: LocatorBar
+version: 1.0
+main: at.blaxk.locatorbar.LocatorBar
+api-version: 1.21.6
+author: Blaxk_
+description: Per Player Locator Bar configuration
+website: https://modrinth.com/plugin/locator-bar
+prefix: LocatorBar
+
+commands:
+  locatorbar:
+    description: Manage your locator bar visibility settings
+    usage: /<command> [toggle|receive|status|player|help|reload]
+    aliases: [lb, locator]
+
+permissions:
+  locatorbar.use:
+    description: Use basic locator bar commands
+    default: true
+  locatorbar.admin:
+    description: Access admin commands like reload and player management
+    default: op
+  locatorbar.cooldown.bypass:
+    description: Bypass all cooldowns
+    default: false
+  locatorbar.cooldown.0:
+    description: No cooldown (0 seconds)
+    default: false
+  locatorbar.cooldown.1:
+    description: 1 second cooldown
+    default: false
+  locatorbar.cooldown.2:
+    description: 2 second cooldown
+    default: false
+  locatorbar.cooldown.3:
+    description: 3 second cooldown
+    default: false
+  locatorbar.cooldown.5:
+    description: 5 second cooldown
+    default: false
+  locatorbar.cooldown.10:
+    description: 10 second cooldown
+    default: false
+  locatorbar.cooldown.15:
+    description: 15 second cooldown
+    default: false
+  locatorbar.cooldown.20:
+    description: 20 second cooldown
+    default: false
+  locatorbar.cooldown.30:
+    description: 30 second cooldown
+    default: false
+  locatorbar.cooldown.45:
+    description: 45 second cooldown
+    default: false
+  locatorbar.cooldown.60:
+    description: 60 second cooldown (1 minute)
+    default: false
+  locatorbar.cooldown.90:
+    description: 90 second cooldown (1.5 minutes)
+    default: false
+  locatorbar.cooldown.120:
+    description: 120 second cooldown (2 minutes)
+    default: false
+  locatorbar.cooldown.180:
+    description: 180 second cooldown (3 minutes)
+    default: false
+  locatorbar.cooldown.300:
+    description: 300 second cooldown (5 minutes)
+    default: false
+
+depend: []
+softdepend: [PlaceholderAPI]

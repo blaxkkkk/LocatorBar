@@ -1,0 +1,61 @@
+# LocatorBar by Blaxk_
+# https://modrinth.com/plugin/locator-bar
+
+# Language settings (en, de)
+language: "en"
+
+# Show welcome message to new players on first join
+show-first-join-message: false
+
+# Control mode for locator bar settings
+# 'combined' - /lb toggle controls both visibility and receiving together
+# 'separate' - /lb toggle for visibility, /lb receive for receiving separately
+control-mode: "combined"
+
+# Cooldown settings
+default-cooldown: 5  # Default cooldown in seconds
+# Permission-based cooldowns:
+# locatorbar.cooldown.bypass - No cooldown
+# locatorbar.cooldown.X - X second cooldown (where X is any number 0-300)
+# Examples: locatorbar.cooldown.0, locatorbar.cooldown.34, locatorbar.cooldown.120, etc.
+
+# Sound settings
+sounds:
+  enabled: false  # Enable/disable all sound effects
+  volume: 1.0    # Sound volume (0.0 to 1.0)
+  pitch: 1.0     # Sound pitch (0.5 to 2.0)
+  enable: "entity.player.levelup"     # Sound when enabling visibility
+  disable: "block.note_block.bass"    # Sound when disabling visibility
+
+# World-specific settings
+world-settings:
+# Example world configurations:
+# world_nether:
+#   force-visible: true
+# minigame_world:
+#   force-visible: true
+# lobby:
+#   force-visible: true
+
+# Attribute ranges - always applied
+# Standard Minecraft default is 60000000
+default-transmit-range: 60000000.0
+default-receive-range: 60000000.0
+
+# When a player toggles visibility off, should their receive range also be set to 0?
+# Only applies when control-mode is 'combined'
+# true = player cannot see others when hidden (more immersive)
+# false = player can still see others even when hidden (more flexible)
+disable-receive-when-hidden: false
+
+# Plugin settings
+save-interval: 300  # Auto-save player data every 5 minutes (in seconds)
+
+# Debug mode
+debug: false
+
+
+
+
+# Do not change this
+config-version: 1
