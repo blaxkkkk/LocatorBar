@@ -2,7 +2,7 @@
 
 ![Replace this with a description](https://cdn.modrinth.com/data/cached_images/f8edf11b407957a9a6459dd9adfedfca2cb98804.png)
 
-![Downloads](https://img.shields.io/modrinth/dt/Egw2R8Fj?logo=modrinth&label=Downloads&color=38B541&style=for-the-badge)
+![Downloads](https://img.shields.io/modrinth/dt/KF5O4Zzd?logo=modrinth&label=Downloads&color=38B541&style=for-the-badge)
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.21.6-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-GPL-purple?style=for-the-badge)
 
