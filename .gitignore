@@ -185,10 +185,6 @@ temp/
 *.lock
 .lock
 
-# ===============================================
-# SECURITY & SENSITIVE DATA
-# ===============================================
-
 # API keys and secrets
 .env
 .env.local
@@ -207,18 +203,11 @@ db.properties
 *.p12
 *.jks
 
-# ===============================================
-# DOCUMENTATION BUILD
-# ===============================================
-
 # Generated documentation
 docs/build/
 docs/_build/
 docs/site/
 
-# ===============================================
-# PACKAGE MANAGERS
-# ===============================================
 
 # Node.js (if using for documentation)
 node_modules/
