@@ -17,6 +17,9 @@
 ![Available Commands](https://cdn.modrinth.com/data/cached_images/80c475dfa6517a6f65ac1f1f431b5162b55adb1e.png)
 
 
+## This Plugin is currently in review on Modrinth and (hopefully) will be available soon
+
+
 
 ### ⚙️ Requirements
 
