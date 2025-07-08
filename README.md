@@ -15,9 +15,6 @@
 ---
 
 
-## This Plugin is currently in review on Modrinth and (hopefully) will be available soon
-
-
 
 ### ⚙️ Requirements
 
